@@ -7,5 +7,5 @@ public interface PathConstant
 	
 	String PROPERTY_PATH = "./src/test/resources/CommonData.properties";
 	
-	long DURATION = 30;
+	long DURATION = 40;
 }
