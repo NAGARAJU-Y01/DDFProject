@@ -99,7 +99,7 @@ public class BaseConfiguration {
 		HomePage homeobj = new HomePage(webdriverobj.driver);
 
 		// click on myaccount headerlink
-		homeobj.Myaccount_headerlink().click();
+		homeobj.getMyaccountheaderlink().click();
 
 		// click on the Register account
 		// homeobj.getRegister_headerlink().click();

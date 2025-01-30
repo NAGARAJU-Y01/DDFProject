@@ -213,9 +213,9 @@ public class HomePage {
 	/**
 	 * @return the myaccountbutton
 	 */
-	public WebElement Myaccount_headerlink() {
-		return myaccountheaderlink;
-	}
+	//public WebElement Myaccount_headerlink() {
+		//return myaccountheaderlink;
+	//}
 
 	/**
 	 * @return the wishlistbutton
