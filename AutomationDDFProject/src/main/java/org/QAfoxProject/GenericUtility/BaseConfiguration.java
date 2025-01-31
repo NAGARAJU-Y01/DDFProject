@@ -99,12 +99,14 @@ public class BaseConfiguration {
 		HomePage homeobj = new HomePage(webdriverobj.driver);
 
 		// click on myaccount headerlink
+		webdriverobj.mouseHoverToElement(homeobj.getMyaccountheaderlink());
 		homeobj.getMyaccountheaderlink().click();
 
 		// click on the Register account
 		// homeobj.getRegister_headerlink().click();
 
-		// click on the Login Login header link
+		// click on the Login--Login_headerlink
+		webdriverobj.mouseHoverToElement(homeobj.getLogin_headerlink());
 		homeobj.getLogin_headerlink().click();
 
 		// click on "My account" Header_Link

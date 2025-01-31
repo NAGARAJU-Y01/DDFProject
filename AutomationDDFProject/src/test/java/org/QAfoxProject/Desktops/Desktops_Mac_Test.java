@@ -21,9 +21,7 @@ public class Desktops_Mac_Test extends BaseConfiguration {
 		webdriverobj.driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 		//Create the Test Information of the methods
 		test = report.createTest("Verify-AddProduct_Desktops_Mac");
-		System.out.println("hi");
 		
-
 		//Create an Object for the Home Page
 		HomePage homeobj = new HomePage(webdriverobj.driver);
 		
